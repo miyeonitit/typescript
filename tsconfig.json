@@ -9,5 +9,5 @@
   "ts-node": {
     "esm": true
   },
-  "include": ["src", "section2", "dist"]
+  "include": ["src"]
 }

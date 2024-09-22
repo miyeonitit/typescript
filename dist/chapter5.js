@@ -6,16 +6,17 @@ var Role;
     Role[Role["USER"] = 1] = "USER";
     Role[Role["GUEST"] = 2] = "GUEST";
 })(Role || (Role = {}));
-var user1 = {
+const user1 = {
     name: "박미연",
     role: Role.ADMIN, // admin
 };
-var user2 = {
+const user2 = {
     name: "홍길동",
     role: Role.USER, // common user
 };
-var user3 = {
+const user3 = {
     name: "아무개",
     role: Role.GUEST, // guest
 };
 console.log(user1, user2, user3);
+export {};
